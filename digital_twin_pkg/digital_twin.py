@@ -1,7 +1,8 @@
 from __future__ import annotations
 import statistics
 
-from .models import SensorReading, TwinState
+from .sensor_reading import SensorReading
+from .models import TwinState
 from .event_bus import EventBus
 
 

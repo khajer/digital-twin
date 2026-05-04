@@ -2,7 +2,7 @@ from __future__ import annotations
 import time
 import random
 
-from .models import SensorReading
+from .sensor_reading import SensorReading
 from .digital_twin import DigitalTwin
 
 
